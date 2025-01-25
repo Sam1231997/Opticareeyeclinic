@@ -25,7 +25,7 @@ const Appointment2 = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5000/submissions", {
+      const response = await axios.post("https://optibackend.onrender.com/submissions", {
         name: `${formData.firstName} ${formData.surname}`,
         email: formData.email,
         message: formData.message,
