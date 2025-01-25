@@ -22,7 +22,7 @@ const TestAd = () => {
   const handleDelete = (id) => {
     console.log('Deleting submission with ID:', id); // Debug
     axios
-    .delete(`http://localhost:5000/submissions/${id}`) // Singular 'submission'
+    .delete(`https://optibackend.onrender.com/submissions/${id}`) // Singular 'submission'
     .then(() => {
       setSubmissions(submissions.filter((submission) => submission.id !== id));
     })
