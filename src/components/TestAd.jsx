@@ -8,7 +8,7 @@ const TestAd = () => {
   useEffect(() => {
     const fetchSubmissions = async () => {
       try {
-        const response = await axios.get('https://optibackend.onrender.com/submissions');
+        const response = await axios.get('https://optibackend-1.onrender.com/submissions');
         setSubmissions(response.data);
       } catch (error) {
         console.error('Error fetching submissions:', error);
