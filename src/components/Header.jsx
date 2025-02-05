@@ -40,7 +40,7 @@ const Header = () => {
           <div className="md:hidden">
             <nav className="flex flex-col space-y-2 py-4 font-bold">
               <Link to="/" className="text-gray-600 hover:text-blue-600">Home</Link>
-              <Link to="/" className="text-gray-600 hover:text-blue-600">Admin</Link>
+              <Link  to="/Admin" className="text-gray-600 hover:text-blue-600">Admin</Link>
               <Link to="/about" className="text-gray-600 hover:text-blue-600">About us</Link>
               <Link to="/services" className="text-gray-600 hover:text-blue-600">Services</Link>
              
